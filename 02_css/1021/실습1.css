@@ -82,24 +82,3 @@
   display: flex;
   margin: 0 10px;
  }
-
- /* header4 */
- .header4 {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
- }
-
- .header4 ul li {
-  margin: 0% 10px;
- }
-
- .menu-left {
-  display: flex;
-  align-items: center;
- }
-
- .menu-right {
-  display: flex;
-  justify-content: space-around;
- }
