@@ -1,0 +1,23 @@
+.parent {
+  position: relative;
+  }
+  .circle {
+  width: 100px; height: 100px; border-radius: 50%; position: absolute;
+  }
+  .circle1 {
+  top: 0; left: 0; background-color: #ff7c7c;
+  }
+  .circle2 {
+  background-color: #ffb680; top: 0; left: 50px;
+  }
+  .circle3 {
+  background-color: #ffeb88; top: 0; left: 100px;
+  z-index: 3;
+  }
+  .circle4 {
+  background-color: #84ff8d; top: 0; left: 150px;
+  }
+  .circle5 {
+  background-color: #9afaff; top: 0; left: 200px;
+  }
+  /* 포지션값이 같으면 아래에 있는 것이 위로 감 */

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가상요소 선택자</title>
+  <style>
+    .box:hover::Before{
+      content:"택시";
+    }
+    .box:hover:After{
+      content:"빨리";
+    }
+    .box{
+      color: darkgreen;
+      font-weight: bold;
+    }
+    
+    .box{
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    여기요!
+  </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가상요소 선택자</title>
+  <style>
+    .div2{
+      background-color: pink;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .div2:hover::after{
+      content: "after";
+      color: white;
+    }
+
+    .div2::before{
+      content: "";
+      display: inline-block;
+      width: 2px;
+      height: 50px;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="div2">
+    가상요소 선택자
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+  height: 1500px;
+}
+
+
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.background-image {
+  background-image: url("./img.png");
+
+  /* 1. background-repeat */
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+
+  /* 2. background-position */
+  /* background-position: center; */
+  /* background-position: top center; */
+  /* background-position: 3rem 5rem; */
+  /* background-position: 100px; */
+
+  background-size: contain;
+  /* cover,contain으로 fixed하면 뷰포트가 기준이 됨 */
+  /* contain은 작은 변 cover는 큰 변 */
+  /* background-size: 90px; */
+  background-attachment: fixed;
+}
+

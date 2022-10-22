@@ -1,0 +1,51 @@
+/* 웹폰트 */
+/* google fonts */
+/* 눈누 사이트 */
+
+
+@import url("https://fonts.googleapis.com");
+
+@font-face {
+  font-family: 'GothicA1-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Black Han Sans';
+  src: url("https://fonts.googleapis.com");
+}
+
+@font-face {
+  font-family: 'GothicA1-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body{
+  font-family: 'GothicA1-Light'
+}
+.google-fonts{
+  font-family: 'Sunflower', sans-serif;
+}
+.google-fonts2{
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.container .sentences{
+  /* 100-900  lighter,regular,bolder */
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  /* left,right */
+  text-decoration: underline;
+  /* line-through 중간줄을 긋는것 overline윗줄 */
+  line-height: 16px;
+  /* 배수로 할 수도 있음 2라고 하면 2배수 defalut1.3 ,100% */
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

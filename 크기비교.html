@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>크기비교</title>
+  <style>
+  div{
+    display: inline-block;
+  }
+  
+  
+  .one{
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 15px solid red;
+    background-color: orange;
+    
+  }
+  .two{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 15px solid red;
+    background-color: orange;
+  }
+
+  </style>
+</head>
+<body>
+  <div>
+    <div class="one">잉</div>
+    <div class="two">교</div>
+  </div>
+</body>
+</html>

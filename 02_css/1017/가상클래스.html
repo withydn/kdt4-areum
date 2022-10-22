@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가상클래스</title>
+  <style>
+    .div1{
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      background-color: skyblue;
+    }
+
+    .div1:hover{
+      background-color: orange;
+      width: 150px;
+    }
+    .div1:active{
+      background-color: pink;
+      height: 150px;
+    }
+
+    input:focus{
+      background-color: purple;
+      color: white;
+      outline-color: red;
+    }
+/* visited */
+    .link > a:visited{
+      color: yellowgreen;
+    }
+
+/* 가상클래스+부정선택자 */
+    .zoo > * {
+      background-color: green;
+      color:white;
+      font-size: 20px;
+    }
+
+    .zoo li:last-child{
+      background-color: yellow;
+      color: black;
+    }
+
+    .zoo *:nth-child(2){
+      background-color: black;
+      color: white;
+    }
+
+    .zoo *:first-child{
+      background-color: pink;
+    }
+
+    .zoo *:nth-child(2n){
+      background-color: aqua;
+    }
+
+    .zoo *:not(div){
+      font-weight: bold;
+      color:red;
+    }
+
+/* odd=홀수 even=짝수 */
+
+
+  </style>
+</head>
+<body>
+  <h3>가상 클래스 선택자</h3>
+
+  <!-- hover -->
+  
+
+  <div class="div1">
+    <span>div1</span>
+  </div>
+
+  <input type="text" />
+  
+  <div class="link">
+    <a href="https://naver.com">네이버로이동</a>
+    <a href="#">다음으로이동</a>
+  </div>
+
+  <!-- E:first-child -->
+  <!-- E:last-child -->
+  <!-- E:nth-child(n) -->
+  <!-- E:not(not) -->
+  <ul class="zoo">
+    <h4>동물원입니다</h4>
+    <div>판다</div>
+    <li>원숭이</li>
+    <li>토끼</li>
+    <li>사자</li>
+    <li>호랑이</li>
+    <li>코끼리</li>
+    <div>코알라</div>
+    <li>기린</li>
+ </ul>
+</body>
+</html>

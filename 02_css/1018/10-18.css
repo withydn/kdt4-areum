@@ -1,0 +1,79 @@
+.d-block{
+  display: block;
+  background-color: aquamarine;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 30px;
+}
+
+.d-inline{
+  display: inline;
+  background-color: pink;
+  border: 1px solid blue;
+
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.d-inline-block{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 3px solid black;
+  padding: 30px 50px 10px 100px;
+}
+
+.parent{
+  width: 500px;
+  height: 200px;
+  background-color: red;
+}
+
+.parent .min{
+  min-width: 400px;
+  width: 440px;
+  height: 100px;
+  background-color: orange;
+
+}
+
+.parent .max{
+  max-width: 400px;
+  height: 100px;
+  background-color: purple;
+}
+
+.box{
+  background-color: beige;
+  border: 1px solid black;
+}
+
+.box-px{
+  width: 50px;
+  height: 50px;
+}
+
+.box-vp{
+  width: 50vw;
+  height: 50vh;
+  font-size: 5vw;
+}
+
+.box-percent{
+  font-size: 20px ;
+}
+
+.rem {
+  font-size: 1.5rem;
+  /* html 폰트사이즈를 가져오는것임 1rem=16px*/
+}
+
+.em {
+  font-size: 1.5em;
+  /* 처음엔 rem과 같지만 부모의 폰트사이즈를 가져와 1.5배를 곱함 */
+}

@@ -1,0 +1,50 @@
+div {
+  width: 300px;
+  height: 300px;
+}
+
+.grass {
+  background-image: url(./grass.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+
+  z-index:4;
+}
+
+.circle {
+  width: 50px; height: 50px; border-radius: 50%; position: absolute;
+  }
+
+.circle1 {
+  background-color: rgb(42, 42, 255); top: 130px; left: 130px;
+}
+
+.circle2 {
+  background-color: rgb(87, 87, 250); top: 150px; left: 150px;
+}
+
+.circle3 {
+  background-color: rgb(110, 110, 248); top: 170px; left: 170px;
+}
+
+.circle4 {
+  background-color: rgb(170, 170, 241); top: 190px; left: 180px;
+  z-index: 2
+}
+
+.circle5 {
+  background-color: rgb(7, 7, 8); top: 210px; left: 210px;
+
+  z-index: 5;
+}
+
+.circle6 {
+  background-color: rgb(244, 244, 248); top: 140px; left: 140px;
+  width: 17px; height: 17px;
+}
+
+.circle7 {
+  background-color: rgb(7, 7, 7); top: 140px; left: 140px;
+  width: 10px; height: 10px;
+}

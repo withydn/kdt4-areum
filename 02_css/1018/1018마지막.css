@@ -1,0 +1,134 @@
+.d-block {
+  display: block;
+  background-color: aquamarine;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 30px;
+}
+.d-inline {
+  display: inline;
+  background-color: pink;
+  border: 1px solid blue;
+  width: 100px;
+  height: 100px;
+}
+.d-inline-block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 3px solid black;
+  /* margin과 padding의 단축속성 */
+  /* margin: 50px 10px 100px 30px; */
+  /* padding: 10px 50px 20px 100px; */
+}
+/* max, min */
+/* 주로 반응형을 위한 웹페이지를 위해 쓰이기 때문에 width기반으로 많이쓰임 */
+/* 반응형 페이지는 핸드폰에서의 웹페이지, 컴퓨터에서의 웹페이지의 구성을
+앱을 따로 만들지 않고 하나의 웹페이지에서 모두 대응하는 것!*/
+.parent {
+  width: 300px;
+  height: 200px;
+  background-color: red;
+}
+.parent .min{
+  min-width: 400px;
+   /* 부모의 크기를 줄였을 때, 설정해준min-width 밑으로는 줄어들지 않음*/
+  width: 440px;
+  background-color: orange;
+  height: 100px;
+}
+.parent .max{
+  max-width: 400px;
+  /*400px을 유지다가 부모 넓이가 400px보다 줄어들면 같이 줄어듦 */
+  height: 100px;
+  background-color: purple;
+}
+/* 단위 */
+.box {
+  background-color: beige;
+  border: 1px solid black;
+}
+.box-px{
+  width: 50px;
+  height: 50px;
+}
+.box-vp {
+  width: 50vw;
+  height: 50vh;
+  font-size: 10vw;
+}
+.box-percent {
+  width: 50%;
+  height: 50%;
+}
+.rem {
+  font-size: 1.5rem;
+}
+.em {
+  font-size: 1.5em;
+}
+/* common square */
+.square {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+/* border-radius */
+.rounded {
+  background-color: thistle;
+  border: none;
+  /* border-radius: 10%; */
+  /* border-radius: 10px; */
+  border-radius: 5px 10px 20px 40px;
+}
+/* box-sizing */
+.box-sizing {
+  padding:20px;
+  border: 15px solid red;
+  background-color: orange;
+}
+.content-box {
+  box-sizing: content-box;
+}
+.border-box {
+  box-sizing: border-box;
+}
+/* 요소 사라지게 하기 */
+.d-none {
+  display: none;
+  background-color: red;
+}
+.invisible {
+  /* visibility: hidden; */
+  background-color: orangered;
+}
+.opacity-0 {
+  /* opacity: 0; */
+  background-color: tomato;
+}
+.square img[alt='pooh']{
+  width: 200px;
+}
+/* overflow */
+.overflow-visible {
+  /* overflow: visible; */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+/* auto와 scroll 둘 다 스크롤이 생성되지만
+auto는 내용이 잘리지 않는다면 스크롤이 생기지 않고
+scroll 속성은 내용이 잘리지 않아도 스크롤라인(?)이 생김.*/
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-scroll {
+  overflow: scroll;
+}

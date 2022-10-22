@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4개 사각형</title>
+  <style>
+  div{
+    text-align: center;
+    margin: 50px 50px;
+    display: inline-block;
+  }
+  .one{
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-width: 10px 20px 30px 40px;
+    border-radius: 20px;
+  }
+  .two{
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-style: solid dotted dashed double;
+    border-radius: 30px;
+  }
+   .three{
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: red blue green yellow;
+    border-radius: 40px;
+  }
+   .four{
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-top: dotted red;
+    border-bottom: dashed blueviolet;
+    border-left: double pink;
+    border-right: solid deepskyblue;
+    border-radius: 50px;
+  }
+
+  </style>
+
+</head>
+<body>
+  <div display="inline-block">
+    <div class="one">1</div>
+    <div class="two">2</div>
+    <div class="three">3</div>
+    <div class="four">4</div>
+    <!-- .border.border$*4{border}ㅇㅅㅇ1~4개까지 나옴 -->
+  </div>
+</body>
+</html>

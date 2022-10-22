@@ -1,0 +1,27 @@
+body{
+  background-color: rgb(210, 194, 241);
+}
+
+table{
+  width: 100%;
+}
+
+.holiday{
+  color: red;
+}
+tr th:first-child{
+  color: red;
+}
+tr td:first-child{
+  color: red;
+}
+tr th:last-child{
+  color: blue;
+}
+tr td:last-child{
+  color: blue;
+}
+/* ,로 이어줄 수 있음 */
+/* tr th:first-child, */
+/* tr td:first-child */
+/* tr .holiday */

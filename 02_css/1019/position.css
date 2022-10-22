@@ -1,0 +1,68 @@
+body{
+  height: 1000px;
+  background: linear-gradient(white, skyblue);
+  margin: 0;
+  padding: 0;
+}
+
+ div {
+  width: 100px;
+  height: 100px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100px;
+}
+
+.position-static {
+  position: static;
+  background-color: pink;
+  left: 500px;
+}
+
+.position-relative {
+  position: relative;
+  background-color: aquamarine;
+  left: 50px;
+}
+
+.position-absolute {
+  position: absolute;
+  background-color: gold;
+   bottom: 0; 
+}
+
+ .position-fixed {
+  position: fixed;
+  background-color: blueviolet;
+  width: 100%;
+  top: 0%;
+  left: 0%; 
+} 
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  position: relative;
+}
+
+.box1 {
+  position: relative;
+  left: 50px;
+  top: 30px;
+  background-color: red;
+}
+
+.box2 {
+  position: absolute;
+  right: 30px;
+  bottom: 100px;
+  background-color: yellow;
+}
+
+.box3 {
+  position: fixed;
+  right: 100px;
+  top: 100px;
+  background-color: blue;
+}
